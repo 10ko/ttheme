@@ -16,7 +16,10 @@ ttheme is distributed under the terms of the GNU GPL
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{
 	font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline
 }
-body{line-height:1}
+body{
+	line-height:1
+	color:#555555;
+}
 ol,ul{list-style:none}
 blockquote,q{quotes:none}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
@@ -29,7 +32,9 @@ a{
 }
 a:link {color:black;}      
 a:visited {color:black;}
-a:hover {color:black;}
+a:hover {
+	color: #cccccc;
+}
 a:active {color:black;} 
 
 #header{
@@ -38,9 +43,6 @@ a:active {color:black;}
 	font-family: "adelle-sans";
 	font-weight: 100;
 }
-
-
-	
 
 #menu-main-menu{
 	padding: 0;
@@ -57,4 +59,5 @@ a:active {color:black;}
 	color: #cccccc;
 	font-weight: 100;
 	margin-top: 3em;
+	font-size: 0.9em;
 }
